@@ -1,7 +1,6 @@
 <script lang="ts">
   import Charts from "$lib/charts/Charts.svelte";  
  import { onMount } from "svelte"
-  import { Bar } from "svelte-chartjs";
 //   import { dataCharts } from "./data";
   export let data;
 
