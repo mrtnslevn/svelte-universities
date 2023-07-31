@@ -1,7 +1,6 @@
 <script lang="ts">
   import Charts from "$lib/charts/Charts.svelte";  
  import { onMount } from "svelte"
-  import { Bar } from "svelte-chartjs";
 //   import { dataCharts } from "./data";
   export let data;
 
@@ -27,26 +26,6 @@ onMount(()=> {
     }
 })
 
-
-// const chartData = {
-//     labels: ['Bar 1', 'Bar 2', 'Bar 3', 'Bar 4', 'Bar 5'],
-//     datasets: [{
-//       label: 'Data Acak',
-//       data: [50, 30, 70, 40, 90],
-//       backgroundColor: 'rgba(75, 192, 192, 0.6)',
-//       borderColor: 'rgba(75, 192, 192, 1)',
-//       borderWidth: 1,
-//     }],
-//   };
-
-// const chartOptions = {
-//     scales: {
-//       y: {
-//         beginAtZero: true,
-//       },
-//     },
-//   };
-//  <!-- <Line data={dataCharts} width={100} height={50} options={{maintainAspectRatio: true}} /> -->
 </script>
 
 <div class=" pt-5 flex flex-row gap-5 pb-5 flex-wrap justify-center items-center =">
