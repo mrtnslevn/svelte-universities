@@ -7,7 +7,7 @@
   
 
   function handleImageNotFound( index: number){
-    let imageUrl = '/src/lib/img/favicon.png'
+    let imageUrl = 'https://logo.clearbit.com/https://svelte.dev?size=50&format=png'
     data.universities[index].imgUrl = imageUrl
   }
 
