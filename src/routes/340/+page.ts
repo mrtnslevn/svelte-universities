@@ -11,9 +11,9 @@ export type univ = {
 };
 
 export const load = async ({ fetch }) => {
-  const res = await fetch("https://jittery-bat-cap.cyclic.cloud/univ/1000");
+  const res = await fetch("https://jittery-bat-cap.cyclic.cloud/univ/340");
   const data = await res.json();
-  // console.log(data);
+  //   console.log(data);
   const universities: univ[] = data.map((n: univ) => {
     return {
       alpha_two_code: n.alpha_two_code,

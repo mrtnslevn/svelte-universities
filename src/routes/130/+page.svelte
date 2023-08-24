@@ -45,6 +45,12 @@ onMount(()=> {
 //       },
 //     },
 //   };
+// <p class="text-center">Domain: {#each univ.domains as domain}
+//             {domain}/
+//             {/each}</p>
+//             <p class="text-center pb-2">Web pages: {#each univ.web_pages as webpages}
+//              {webpages}
+//            {/each}</p>
 //  <!-- <Line data={dataCharts} width={100} height={50} options={{maintainAspectRatio: true}} /> -->
 </script>
 
@@ -54,12 +60,7 @@ onMount(()=> {
             <img src={univ.imgUrl} width="100px" height="100px"  alt="img">
             <p class=" pt-3"> {univ.name}</p>
             <p>Country: {univ.country}({univ.alpha_two_code})</p>
-            <p class="text-center">Domain: {#each univ.domains as domain}
-            {domain}/
-            {/each}</p>
-            <p class="text-center pb-2">Web pages: {#each univ.web_pages as webpages}
-             {webpages}
-           {/each}</p>
+            
            <p class="text-justify">
             {univ.paragrapgh}
            </p>    
